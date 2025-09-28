@@ -1,6 +1,6 @@
-print("hello world")
+print("hello world") #print
 
-x = 3
-y = 2
+x = 3 #x variable
+y = 2 #y variable
 
-print(x * y)
+print(x * y) #print multiplication of x and y
