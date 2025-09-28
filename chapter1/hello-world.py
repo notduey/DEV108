@@ -10,3 +10,8 @@ x = 3 #x variable
 y = 2 #y variable
 
 print(x * y) #print multiplication of x and y
+
+age = 21 #age variable
+name = "Jane"
+
+print(age, name, "age", 2+3) #print age, name, string constant "age", and the result of 2+3
