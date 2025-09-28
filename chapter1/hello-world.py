@@ -1,2 +1,6 @@
 print("hello world")
-3+2
+
+x = 3
+y = 2
+
+print(x * y)
