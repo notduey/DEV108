@@ -42,7 +42,3 @@ print("Total Score: " + str(score_total) \
 #With implicit continuation, you can divde statements after parentheses, brackets, and braces, and before or after operators like plus or minus signs.
 
 #With explicit continuation, you can use the backslash \ character to divde statements anywher in a line
-
-#Use comments to describe portions of code that are hard to understand, but don't overdo them
-#Use comments to comment out (or disable) statements that you don't want to test
-#If you change the code that's described by comments, change the comments too
