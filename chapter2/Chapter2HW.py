@@ -1,4 +1,4 @@
-#!/usr/bin/evr python3
+#!/usr/bin/env python3
 """
 This program illustrates the use of variables, input() function, and string methods
 """

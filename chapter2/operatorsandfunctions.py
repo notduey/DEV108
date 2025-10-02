@@ -1,4 +1,4 @@
-#!usr/bin/evr python3
+#!/usr/bin/env python3
 
 #Python's arithmetic operators:
 # + addition

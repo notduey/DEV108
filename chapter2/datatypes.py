@@ -1,4 +1,4 @@
-#!usr/bin/evr python3
+#!/usr/bin/env python3
 
 #three python date types: string, integer, float
 first_name = "Mike" #sets string "Mike"
