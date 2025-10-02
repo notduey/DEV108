@@ -19,8 +19,8 @@ user_name = input("Enter your name:")
 name = user_name
 print(name)
 
-name = user_name.capitalize()
+name = name.upper()
 print(name)
 
-name = user_name.strip()
+name = name.strip()
 print(name)
