@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 #This is a tutorial program that illustrates the use of 
 #the while and if statements
