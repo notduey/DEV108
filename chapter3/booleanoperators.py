@@ -86,7 +86,7 @@ print(string2) #prints "mary"
 
 #how the lower() method can simplify code:
 #without the lower() method:
-customer_type = "r" or customer_type = "R"
+customer_type == "r" or customer_type == "R"
 
 #with the lower() method:
 customer_type.lower() == "r"
