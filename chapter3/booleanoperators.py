@@ -77,7 +77,7 @@ variableName.methodName()
 string1 = "Mary"
 string2 = "mary"
 
-string1 == string 2 #False, because the uppercase "M" is not equal to the lowercase "m"
+string1 == string2 #False, because the uppercase "M" is not equal to the lowercase "m"
 string1.lower() == string2.lower() #True, because both strings are converted
 
 print(string1) #prints "Mary"
