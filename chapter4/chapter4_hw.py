@@ -7,7 +7,7 @@ def get_number_fruits():
     """
     Asks user for number of fruits in bag, apple then banana
     """
-    fruits = int(input("How many fruits are you buying?"))
+    fruits = int(input("How many fruits are you buying? "))
     return fruits
 
 def get_apple_price(apples):
@@ -29,8 +29,12 @@ def print_bill(apple_total, banana_total):
     Displays final bill and total
     """
     total = apple_total + banana_total
-    print("You bought $" + banana_total, " of bananas and $" + apple_total, " of apples." \
-    "\n Your final bill is $" + total + ".")
+
+    print("You bought $"
+    + str(banana_total) + " of bananas and $"
+    + str(apple_total) + " of apples."
+    "\nYour final bill is $" + str(total) + ".")
+
     print("Thank you for shopping with us")
 
 def main():
@@ -44,3 +48,6 @@ def main():
     banana_total = get_banana_price(bananas)
 
     print_bill(apple_total, banana_total)
+
+if __name__ == "__main__":
+    main()
