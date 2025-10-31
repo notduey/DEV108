@@ -42,8 +42,11 @@ def main():
     user_list = []
     list_size = get_list_size()
     get_numbers(list_size, user_list)
-    print("You typed, ", user_list)
+    print(f"You typed: {user_list}")
     number_sum = get_sum(user_list)
     average = get_average(number_sum, user_list)
-    print("sum: ", number_sum)
-    print("Average: ", round(average, 1))
+    print(f"sum: {number_sum}")
+    print(f"Average: {round(average, 1)}")
+
+if __name__ == "__main__":
+    main()
