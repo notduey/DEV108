@@ -485,7 +485,7 @@ def main():
     for i in range(len(random_list)):
         random_list[i] = random.randint(0, 50)
     random_list.sort()
-    
+
     print("TUPLE DATA:", fixed_tuple)
     crunch_numbers(fixed_tuple)
     print()
