@@ -1,4 +1,4 @@
-#! usr/bin/env python3
+#!usr/bin/env python3
 """
 This program gets the average value of X amount of numbers the user inputs
 """
@@ -17,7 +17,7 @@ def get_numbers(list_size, user_list):
     for number in range(list_size):
         number = int(input("Enter a number: "))
         user_list.append(number)
-        return user_list
+    return user_list
 
 def get_sum(user_list):
     """
@@ -44,6 +44,6 @@ def main():
     get_numbers(list_size, user_list)
     print("You typed, ", user_list)
     number_sum = get_sum(user_list)
-    average = get_average(number_sum, list_size)
+    average = get_average(number_sum, user_list)
     print("sum: ", number_sum)
     print("Average: ", round(average, 1))
