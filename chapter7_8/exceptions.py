@@ -330,4 +330,3 @@ def get_movies(filename):
     except Exception as e:
         log_exception(e)
         raise e
-

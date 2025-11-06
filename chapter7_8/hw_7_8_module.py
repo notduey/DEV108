@@ -35,6 +35,8 @@ def get_user_choice():
     """This function reads the user choice and returns it
     Assume the user will always enter valid values"""
     choice = int(input("Choice: "))
+    if choice not in (0, 1, 2, 3):
+        raise ValueError("Choice must be 0, 1, 2, or 3.")
     return choice
 
 def get_total_price(food_choice, drink_choice, dessert_choice):
