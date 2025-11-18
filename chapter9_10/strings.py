@@ -519,6 +519,7 @@ displayed_word)
     else:
         print("Sorry, you lost.")
         print("The word was:", word)
+        
 def main():
     print("Play the H A N G M A N game")
     while True:
