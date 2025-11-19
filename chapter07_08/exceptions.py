@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 
 #Code that can cause a ValueError exception
 number = int(input("Enter an integer: "))

@@ -1,4 +1,4 @@
-#! usr/bin/env python3
+#!/usr/bin/env python3
 
 #syntax for creating a list:
 mylist = [item1, item2, ...]

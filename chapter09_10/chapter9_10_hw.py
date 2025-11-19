@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
 This program reads email_template.txt and emails.csv file 
 then prints emails for each recipient by replacing {first_name} and {email}

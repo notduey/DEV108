@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
 This program gets the average value of X amount of numbers the user inputs
 """
