@@ -423,7 +423,7 @@ def main():
         arrival_date = get_arrival_date()
         departure_date = get_departure_date(arrival_date)
         print()
-        
+
         # calculate nights and cost
         rate = 85.0
         rate_message = ""
